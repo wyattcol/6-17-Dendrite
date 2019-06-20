@@ -4,5 +4,6 @@ del Version.txt
 ren "DendriteUpdated.exe" "Dendrite.exe"	
 ren "DendriteUpdated.dll" "Dendrite.dll"	
 ren "NewVersion.txt" "Version.txt"
+SLEEP 1
 start Dendrite.exe
 del Update.bat
